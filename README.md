@@ -1,9 +1,9 @@
-# FMRConv: Multiple Relationship Perception of Shape in Deep Learning on Point Cloud
+# FMRConv: Multi-Centroid Based Local Shape Perception for Deep Learning on Point Cloud
 
 **FMRConv is a spatial convolution operator for point cloud**
 
 
-![The Overview of FPAC](https://github.com/lly007/FPAC/blob/main/image/fig2.png "The Overview of FPAC")
+![The Overview of FPAC](https://github.com/lly007/FMRConv/blob/main/pic/overview.png "The Overview of FPAC")
 
 
 This is an implementation of FMRConv by PyTorch.
@@ -11,7 +11,7 @@ This is an implementation of FMRConv by PyTorch.
 
 # Introduction
 
-This project propose a new scheme, called Frame Point Attention Convolution (FPAC), for performing the 3D point cloud convolution and extracting the features from the individual cloud points.
+This project propose a new scheme, called Frame Multi-Relationship Convolution (FMRConv), for performing the 3D point cloud convolution and extracting the features from the individual cloud points.
 
 
 
@@ -38,7 +38,7 @@ Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/mo
 python train_cls.py --log_dir [your log dir]
 ```
 
-We provide a pre-trained model of FMRConv(Single Scale Grouping) here with an accuracy of 93.4%.
+We provide a pre-trained model of FMRConv(Single Scale Grouping) here with an accuracy of 93.35%.
 
 ## Part Segmentation
 ### Data Preparation
